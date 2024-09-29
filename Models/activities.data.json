@@ -1,0 +1,24 @@
+[
+  {
+    "activityName": "Roues Libres 45",
+    "activityDescription": "Roues Libres 45 est un rassemblement mensuel de voitures de collection qui se tient chaque premier dimanche du mois. Passionnés et curieux se retrouvent pour admirer des véhicules anciens, échanger autour de leur histoire, et partager un moment convivial. Des modèles emblématiques allant des années 20 à aujourd'hui sont exposés, offrant un véritable voyage dans le temps pour les amateurs d'automobiles.",
+    "activityImgSrc": "public/img/roues-libre-45.jpg"
+  },
+  {
+    "activityName": "Marché de Noël",
+    "activityDescription": "Le Marché de Noël de Ferrières-en-Gâtinais se tient chaque année en décembre et plonge le village dans une ambiance féerique. Artisans et producteurs locaux proposent des produits faits main, décorations, et gourmandises festives. Animations, chants de Noël, et l'incontournable visite du Père Noël ravissent petits et grands. Un moment magique pour préparer les fêtes et découvrir des cadeaux uniques ! ",
+    "activityImgSrc": "public/img/christmas-market.jpg"
+  },
+  {
+    "activityName": "Découverte de l'Abbeye",
+    "activityDescription": "La visite de l'Abbaye de Ferrières te plonge au cœur de l’histoire médiévale. Fondée au VIIe siècle, cette ancienne abbaye bénédictine dévoile son architecture unique et ses secrets à travers des visites guidées. Découvre son riche patrimoine, ses fresques anciennes et ses jardins paisibles. Un véritable voyage dans le temps, entre spiritualité et histoire. ",
+    "activityImgSrc": "public/img/abbeye-image.jpg"
+  },
+  {
+    "activityName": "Ferrières Lumières",
+    "activityDescription": "Ferrières Lumières est un événement magique qui illumine le centre historique de Ferrières-en-Gâtinais. Chaque année, des milliers de visiteurs viennent admirer un spectacle féerique mêlant lumières, couleurs, sons et émotions.",
+    "activityImgSrc": "public/img/lumiere-ferrieres.jpg"
+  }
+]
+
+

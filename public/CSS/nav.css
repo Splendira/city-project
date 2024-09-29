@@ -1,0 +1,135 @@
+:root {
+  /* COLORS */
+
+  --soft-dark: #333;
+  --white: #fff;
+  --blue: #264bb2;
+  /* --blue: #317ac1; */
+  --dark-blue: #384454;
+  --light: #d4d3dc;
+  --mark: #264bb2c0;
+  --yellow: #e1a624;
+  --dark-yellow: #ad956b;
+
+  --font-fam-poppins: "Poppins", sans-serif;
+
+  /* FONT SIZE */
+  --fs-10px: 1em;
+  --fs-13px: 1.3em;
+  --fs-16px: 1.6em;
+  --fs-18px: 1.8em;
+  --fs-20px: 2em;
+}
+
+
+/* NAV */
+nav {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  height: 80px;
+  justify-content: space-between;
+  padding: 0 20px;
+  z-index: 10;
+  background-color: var(--white);
+  border-bottom: 2px solid var(--soft-dark);
+  top: 0;
+  left: 0;
+}
+
+.logo-container a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #333;
+  font-size: var(--fs-16px);
+}
+
+.logo-name {
+  font-weight: 100;
+}
+
+nav .logo-city {
+  width: 40px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style-type: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: var(--fs-20px);
+  color: var(--soft-dark);
+  position: relative;
+}
+
+nav ul li a::after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--yellow);
+  transform: scale(0);
+  transition: transform 0.3s linear;
+}
+
+nav ul li a:hover {
+  color: var(--yellow);
+  font-weight: 500;
+}
+
+nav ul li a:hover::after {
+  transform: scale(1);
+}
+
+@media screen and (max-width: 900px) {
+  nav ul {
+    position: absolute;
+    flex-direction: column;
+    top: 80px;
+    left: -100%;
+    width: 100%;
+    background-color: var(--blue);
+    gap: 20px;
+    padding: 20px;
+    border-bottom: 2px solid var(--white);
+  }
+
+  nav ul li a {
+    color: var(--white);
+    font-size: 20px;
+  }
+
+  nav ul li a:hover {
+    color: #fff;
+  }
+
+  /* hamburger icone */
+  .hamburger-menu {
+    display: block;
+  }
+
+  nav ul {
+    opacity: 0;
+    transition: left 0.3s linear, opacity 0.3s linear;
+  }
+
+  .active-menu {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .logo-container a {
+    font-size: var(--fs-13px);
+  }
+}
