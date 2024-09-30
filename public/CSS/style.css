@@ -50,7 +50,7 @@ main {
 header {
   width: 100%;
   height: 52vh;
-  background-image: url(/src/hero-2.jpg);
+  background-image: url("https://raw.githubusercontent.com/PhilipFerrand/city-project/refs/heads/main/src/hero-2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%, 10%;
@@ -225,7 +225,7 @@ header span {
 }
 
 .card-parallax.history-info {
-  background-image: url(/src/history-img.jpg);
+  background-image: url("https://github.com/PhilipFerrand/city-project/blob/main/src/history-img.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -234,7 +234,7 @@ header span {
 }
 
 .card-parallax.event-info {
-  background-image: url(/src/event-img.jpg);
+  background-image: url("https://github.com/PhilipFerrand/city-project/blob/main/src/event-img.jpg?raw=true");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -243,7 +243,7 @@ header span {
 }
 
 .card-parallax.hotel-info {
-  background-image: url(/src/hotel.jpg);
+  background-image: url("https://github.com/PhilipFerrand/city-project/blob/main/src/hotel.jpg?raw=true");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
