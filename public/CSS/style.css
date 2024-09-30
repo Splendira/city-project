@@ -225,7 +225,7 @@ header span {
 }
 
 .card-parallax.history-info {
-  background-image: url("https://raw.githubusercontent.com/PhilipFerrand/city-project/refs/heads/main/src/history-img.jpg?raw=true");
+  background-image: url("https://github.com/PhilipFerrand/city-project/blob/main/src/history-img.jpg?raw=true");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
