@@ -55,7 +55,6 @@ header {
   background-size: cover;
   background-position: 50% 10%;
   background-attachment: fixed;
-  -webkit-background-attachment: fixed;
   position: relative;
   margin-top: 80px;
 }
@@ -227,7 +226,6 @@ header span {
 
 .card-parallax.history-info {
   background: url("https://github.com/PhilipFerrand/city-project/blob/main/src/history-img.webp?raw=true");
-  -webkit-background-attachment: fixed;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -240,7 +238,6 @@ header span {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  -webkit-background-attachment: fixed;
   width: 100%;
   height: 100vh;
 }
@@ -250,9 +247,26 @@ header span {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  -webkit-background-attachment: fixed;
   width: 100%;
   height: 100vh;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  header,
+  .card-parallax.history-info,
+  .card-parallax.event-info,
+  .card-parallax.hotel-info {
+    background-attachment: scroll; /* Désactive le fixed pour iOS */
+  }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  header,
+  .card-parallax.history-info,
+  .card-parallax.event-info,
+  .card-parallax.hotel-info {
+    background-attachment: scroll; /* Désactive le fixed pour iOS */
+  }
 }
 
 .content-info-parallax-card {
